@@ -29,7 +29,9 @@ pipenv shell
 ## The files
 The `sql_queries.ipynb` notebook contains the first challenge corresponding 
 to the SQL queries. In the notebook you can find the code to create, insert and
-query the database as requested. 
+query the database as requested. Inside the Notebook it is included a `mermaid.svg`
+which is an image that contains the ERD diagram, in case for some reason it
+doesn't render correctly in the notebook, you can open it manually.
 
 Inside `app/` folder there is the `data_processing.py` file which contains the code
 related to pandas. As mentioned before, pipenv installs all the dependencies, in 
